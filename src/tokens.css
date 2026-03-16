@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&family=Noto+Sans+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+:root {
+  /* Typography - Noto Sans */
+  --body-compact-01: 400 14px/18px 'Noto Sans', sans-serif;
+  --body-01: 400 14px/20px 'Noto Sans', sans-serif;
+  --label-01: 400 12px/16px 'Noto Sans', sans-serif;
+  --helper-text-01: 400 12px/16px 'Noto Sans', sans-serif;
+  --legal-01: 400 12px/16px 'Noto Sans', sans-serif;
+  --heading-compact: 600 14px/18px 'Noto Sans', sans-serif;
+  --heading-01: 600 14px/20px 'Noto Sans', sans-serif;
+  --heading-02: 600 16px/24px 'Noto Sans', sans-serif;
+  --heading-03: 400 20px/28px 'Noto Sans', sans-serif;
+  --heading-04: 400 28px/36px 'Noto Sans', sans-serif;
+  --heading-05: 300 32px/40px 'Noto Sans', sans-serif;
+  --heading-06: 300 42px/50px 'Noto Sans', sans-serif;
+  --heading-07: 300 54px/64px 'Noto Sans', sans-serif;
+  
+  /* Typography - Noto Sans Mono */
+  --code-01: 400 12px/16px 'Noto Sans Mono', monospace;
+
+  /* Button fills */
+  --button-primary: #0f62fe;
+  --button-primary-hover: #0050e6;
+  --button-primary-active: #002d9c;
+  --button-secondary: #6f6f6f;
+  --button-secondary-hover: #5e5e5e;
+  --button-secondary-active: #393939;
+  --button-danger-primary: #da1e28;
+  --button-danger-secondary: #fa4d56;
+  --button-danger-hover: #b81922;
+  --button-danger-active: #750e13;
+  --button-disabled: #525252;
+
+  /* Text */
+  --text-on-color: #ffffff;
+  --text-on-color-disabled: rgba(255,255,255,0.25);
+  --text-inverse: #161616;
+  --text-danger-ghost: #fa4d56;
+
+  /* Focus ring */
+  --focus: #ffffff;
+  --focus-inset: #161616;
+
+  /* Skeleton */
+  --skeleton-element: #525252;
+  --skeleton-background: #474747;
+
+  /* Interactive States (Ghost/Tertiary) */
+  --background-hover: rgba(141,141,141,0.16);
+  --background-active: rgba(141,141,141,0.40);
+}
