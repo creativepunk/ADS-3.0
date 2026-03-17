@@ -42,9 +42,11 @@
    Sizes (matching Figma constraints)
    --------------------------------- */
 .xs {
+    /* Extra small: 24px height, padding: py-[3px] px-[16px] *but component uses padding-right 64px for icons*
+     Wait, looking closer at Figma for xs: pl-[16px] pr-[64px] py-[3px] 
+     Standard padding for text-only/icon-trailing should be 16px horizontal */
     height: 24px;
     padding: 0 16px;
-    /* Compact font for xs/sm */
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.16px;
@@ -60,12 +62,10 @@
     margin-left: -8px;
 }
 
-/* Adjust icon spacing */
-
 .sm {
+    /* Small: 32px height, py-[7px] */
     height: 32px;
     padding: 0 16px;
-    /* Compact font */
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.16px;
@@ -81,11 +81,11 @@
 }
 
 .md {
+    /* Medium: 40px height, py-[11px] */
     height: 40px;
     padding: 0 16px;
-    /* Regular font for md/lg */
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0.16px;
 }
 
@@ -99,11 +99,11 @@
 }
 
 .lg {
+    /* Large: 48px height, py-[15px] */
     height: 48px;
     padding: 0 16px;
-    /* Regular font */
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0.16px;
 }
 
